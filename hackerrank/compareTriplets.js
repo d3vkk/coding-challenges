@@ -1,5 +1,5 @@
 function compareTriplets(a, b) {
-    var _a = [0, 0, 0], aPoints = _a[0], bPoints = _a[1], i = _a[2];
+    var aPoints = 0, bPoints = 0, i = 0;
     while (i < 3) {
         if (a[i] != b[i]) {
             a[i] > b[i] ? aPoints++ : bPoints++;
